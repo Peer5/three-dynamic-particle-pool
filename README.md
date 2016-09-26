@@ -55,11 +55,11 @@ particle.free();
 ## Advanced Usage
 
 ```js
-require('./dynamic-particle-pool'); // the module will self attach to THREE
+var DynamicParticlePool = require('./dynamic-particle-pool'); // the module will self attach to THREE
 
 
 var object3d = new THREE.Object3D();
-var particlePool = THREE.DynamicParticlePool(object3d, {
+var particlePool = DynamicParticlePool(object3d, {
   maximumParticles: 50000,
   minimumParticles: 10000,
   particlesPerGeometry: 5000,
