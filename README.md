@@ -1,7 +1,7 @@
 # DynamicParticlePool
 
 
-This is an implementation of dynamic particles pool for [three.js](https://threejs.org/) that are dynamically created and destroyed on demmand.
+This is an implementation of dynamic particles pool for [three.js](https://threejs.org/) that are dynamically created and destroyed on demand.
 Since geometries in three are static and pre-allocated the approach to achieve such dynamical pool
 is creating multiple pre-allocated geometries that together create a bigger pool that is managed by this module.
 
