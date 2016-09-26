@@ -70,6 +70,3 @@ var particlePool = THREE.DynamicParticlePool(object3d, {
   geometryOptions: {}
 });
 ```
-
-
-
