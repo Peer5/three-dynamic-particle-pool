@@ -1,0 +1,19 @@
+{
+  "name": "three-dynamic-particle-pool",
+  "version": "0.0.1",
+  "description": "Dynamic particle pool for three.js",
+  "main": "dynamic-particle-pool.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "peerDependencies": {
+    "three": "*"
+  }
+}
